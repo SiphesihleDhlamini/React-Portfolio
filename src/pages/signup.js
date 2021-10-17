@@ -2,7 +2,13 @@ import React from 'react'
 
 function SignUp() {
     return (
-        <div>
+        <div
+        style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'right',
+            height: '100vh',
+        }}>
             <h1>Sign Up and get started</h1>
         </div>
     )
