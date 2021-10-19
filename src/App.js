@@ -3,9 +3,8 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import About from './pages/About';
 import NavHeader from './components/NavHeader'
-
-
 
 function App() {
   return (
@@ -16,9 +15,12 @@ function App() {
           <Route exact path='/'>
             <Home/>
           </Route> 
-          <Route exact path='/contact'>
+          <Route exact path='/Contact'>
             <Contact/>
-          </Route>  
+          </Route>   
+          <Route exact path='/About'>
+            <About/>
+          </Route>
         </Switch> 
       </Router>
     </div>
